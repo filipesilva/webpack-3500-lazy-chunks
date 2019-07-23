@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "webpack-cli --mode development --devtool source-map out-tsc/app/main.js --watch --progress"
+    "watch": "webpack-cli --mode development --devtool source-map out-tsc/app/main.js --watch --progress",
+    "profile": "node --inspect-brk ./node_modules/webpack-cli/bin/cli.js --mode development --devtool source-map out-tsc/app/main.js --watch --progress"
   },
   "keywords": [],
   "author": "",
