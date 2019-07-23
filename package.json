@@ -1,0 +1,25 @@
+{
+  "name": "webpack-3500-lazy-chunks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack-cli --mode development --devtool source-map out-tsc/app/main.js --watch --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^8.2.0-next.2",
+    "@angular/compiler": "^8.2.0-next.2",
+    "@angular/core": "^8.2.0-next.2",
+    "@angular/platform-browser": "^8.2.0-next.2",
+    "@angular/platform-browser-dynamic": "^8.2.0-next.2",
+    "@angular/router": "^8.2.0-next.2",
+    "rxjs": "^6.5.2",
+    "tslib": "^1.10.0",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "zone.js": "^0.9.1"
+  }
+}
