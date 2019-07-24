@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "generate": "node generate.js",
     "watch": "webpack-cli --mode development --devtool source-map out-tsc/app/main.js --watch --progress",
     "profile": "node --inspect-brk ./node_modules/webpack-cli/bin/cli.js --mode development --devtool source-map out-tsc/app/main.js --watch --progress"
   },
