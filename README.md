@@ -1,5 +1,7 @@
 # webpack-3500-lazy-chunks
 
+Note: this was fixed in `webpack@4.38.0`
+
 When using `webpack@4.36.1`, having many lazy chunks slows down rebuilds.
 
 To repro follow these steps:
